@@ -25,6 +25,15 @@ export const AllButtons = (args) => (
     <Button size="lg">Secondary</Button>
     <Button size="lg" loading={true}>Loading</Button>
     <Button size="sm" loading={true}>Loading</Button>
+
+    <hr />
+    <p className="mt-4 mb-2">Plain Buttons</p>
+    <Button type="plain">Primary</Button>
+    <Button type="plain" size="sm">Primary</Button>
+    <Button type="plain" loading={true}>Primary</Button>
+    <Button type="plain" size="sm" loading={true}>Loading</Button>
+    <Button type="plain" size="lg">Primary</Button>
+    <Button type="plain" size="lg" loading={true}>Loading</Button>
   </Fragment>
 );
 
